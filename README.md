@@ -1,6 +1,6 @@
 # Image Stitching
 
-**Edit and run mymosaic.py with your own pictures
+**Edit and run mymosaic.py with your own pictures**
 
 **1. Corner Detection** ​​:
     Corner detection is implemented using cornerHarris from OpenCV, which
