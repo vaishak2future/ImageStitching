@@ -38,7 +38,7 @@
 
 
 **6. Mosaic** ​​:
-    IWe use a recursive function to do the mosaicing. The function stitches
+    We use a recursive function to do the mosaicing. The function stitches
     together consecutive images and then calls the same function on the resulting reduced array of images
     till the entire set is stitched together into one image. The stitching is done in stitch.py where we
     calculate the size of the stitched image and the displacement of the target image. Then we loop through
