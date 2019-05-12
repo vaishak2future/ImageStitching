@@ -26,6 +26,7 @@
     if the ratio is smaller than the threshold to see if it's a good match. If it’s a good match, put the index of
     the best match descriptor into match, and if it’s not a good, match put -1 to indicate no good match
     found.
+    
 **5. RANSAC** ​​:
     Implementation Summary: From the matched points, we sample four pair of points and find the
     homography that relates them. We then apply the homography to the entire matched set. We consider a
